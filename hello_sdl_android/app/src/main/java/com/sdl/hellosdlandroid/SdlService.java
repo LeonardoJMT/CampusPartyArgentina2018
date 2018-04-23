@@ -166,12 +166,12 @@ public class SdlService extends Service implements IProxyListenerALM{
 	private static final String WELCOME_SHOW 			= "Welcome to HelloSDL";
 	private static final String WELCOME_SPEAK 			= "Welcome to Hello S D L";
 
-    private static final String WELCOME_SHOW_BANCO      = "Bem-vindo ao Banco 24 Horas";
+
     private static final String BUSCAR_TEXT1             = "Pressione \"Buscar\" para";
     private static final String BUSCAR_TEXT2             = "encontrar o caixa mais próximo.";
     private static final String BUSCAR_TEXT3             = "mais próximo.";
 
-    private static final String WELCOME_SPEAK_BANCO     = "Bem-vindo a ou, Banco 24 Horas, selecione a opção, buscar, para encontrar o caixa eletrônico mais próximo de você.";
+    private static final String WELCOME_SPEAK_BANCO     = "Welcome to Campus Party Argentina";
 	
 	private static final String TEST_COMMAND_NAME 		= "Test Command";
     private static final String TEST_COMMAND_NAME1      = "Buscar";
@@ -547,7 +547,7 @@ public class SdlService extends Service implements IProxyListenerALM{
 		if(!notification.getHmiLevel().equals(HMILevel.HMI_NONE)
 				&& firstNonHmiNone){
             //subscribeEcallInfo();
-			sendCommands();
+			//sendCommands();
 			//uploadImages();
 			firstNonHmiNone = false;
 			
