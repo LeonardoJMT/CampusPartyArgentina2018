@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgray">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="384dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ford_logo_3" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="398dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ford_front" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/div9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/llInfo1"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="11dp"
+                android:text="  Informações do veículo:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/llInfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtDt"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="140dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/txtModel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Model:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtModelYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Model Year:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtVin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VIN: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtPrndl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="PRNDL: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Speed: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtRpm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="RPM: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtFuelLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Fuel Level: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtFuelLevel_State"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Fuel Level State: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtOdometer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Odometro: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtExternalTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Ext. Temp: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtDriverBreaking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Driver Breaking: "
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/txtEngineTorque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eng. Torque: "
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/div2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/llInfo1"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/txtGps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/div2"
+                android:layout_centerHorizontal="true"
+                android:text="GPS"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llInfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtGps"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/txtLatitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtLongitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAltitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Altitude: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Heading: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtCompassDirection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Compass Direction: "
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/div3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/llInfo2"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/txtHeadLampStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/div3"
+                android:layout_centerHorizontal="true"
+                android:text="Head Lamp Status"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llInfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHeadLampStatus"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/txtLowBeamsOn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Low Beams On: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtHighBeamsOn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="High Beams On: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAmbientLightSensorStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amb. Light Sensor Status: "
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/div4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/llInfo3"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/txtTirePressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/div4"
+                android:layout_centerHorizontal="true"
+                android:text="Tire Pressure"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llInfo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTirePressure"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/txtRightRear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right Rear: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtLeftRear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Left Rear: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtRightFront"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right Front: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtLeftFront"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Left Front: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtInnerRightRear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inner Right Rear: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtInnerLeftRear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inner Left Rear: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtPressureTelltale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure Telltale: "
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/div5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/llInfo4"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/txtBodyInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/div5"
+                android:layout_centerHorizontal="true"
+                android:text="Body Information"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llInfo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtBodyInformation"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/txtDriverDoorAjar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Driver Door: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtPassengerDoorAjar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger Door: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtRearRightDoorAjar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rear Right Door: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtRearLeftDoorAjar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rear Left Door: "
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/txtIgnitionStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ignition Status: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtIgnitionStableStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ignition Stable Status: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtParkBreakeActive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Park Break Active: "
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
