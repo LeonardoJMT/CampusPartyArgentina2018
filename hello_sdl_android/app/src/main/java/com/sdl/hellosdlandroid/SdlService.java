@@ -136,8 +136,8 @@ public class SdlService extends Service implements IProxyListenerALM{
 
 	private static final String TAG 					= "SDL Service";
 
-	private static final String APP_NAME 				= "Fleet Management";
-	private static final String APP_ID 					= "614776325";
+	private static final String APP_NAME 				= "Ford Campus Party";
+	private static final String APP_ID 					= "4055201279";
 
 	private static final String ICON_FILENAME 			= "brasao_two.PNG";
 	private static final String SDL_IMAGE_FILENAME  	= "sdl_full_image.png";
